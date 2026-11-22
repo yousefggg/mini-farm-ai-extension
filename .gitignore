@@ -1,0 +1,10 @@
+.settings/
+.project
+*.epf
+*.erf
+*.cfe
+*.cf
+*.dt
+*.log
+build/
+bin/
