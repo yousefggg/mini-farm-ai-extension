@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f6f42f8-1d51-403a-a3bd-5240f919e722">
+  <producedTypes>
+    <managerType typeId="67820b0d-cb0b-47bb-a47e-632f2e819b20" valueTypeId="ea22b346-84c5-4e32-8164-d10c13ee0321"/>
+    <valueManagerType typeId="6d108208-5fdf-44d1-84a8-cb59e7eac830" valueTypeId="846a6bf2-12da-4302-a948-23e87c225a5c"/>
+    <valueKeyType typeId="29c5c49e-8738-4f12-afd6-b8ea2187bf6c" valueTypeId="cdd30299-779a-4324-b0ad-5813c9ce0adf"/>
+  </producedTypes>
+  <name>ИНТ_ВнешнийAPI_АдресСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИНТ внешний API адрес сервера</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

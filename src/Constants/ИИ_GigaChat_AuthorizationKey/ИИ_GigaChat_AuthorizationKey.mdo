@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49cb9881-5d22-49ca-822e-d570dc96bf4f">
+  <producedTypes>
+    <managerType typeId="0d820629-3f32-449f-822b-5e942012c8c6" valueTypeId="18c1078e-551d-4a94-afa3-d9e749603f7e"/>
+    <valueManagerType typeId="e09c3725-e3e4-4c11-af40-f56401177cf1" valueTypeId="50fb8aa7-c604-462a-8bdd-eae011bfa090"/>
+    <valueKeyType typeId="5be07bb3-84b2-43c2-9acf-6b0a1ea484af" valueTypeId="9647437c-b307-4d91-ba3b-d3bd0b86eacc"/>
+  </producedTypes>
+  <name>ИИ_GigaChat_AuthorizationKey</name>
+  <synonym>
+    <key>ru</key>
+    <value>Giga chat authorization key</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>250</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

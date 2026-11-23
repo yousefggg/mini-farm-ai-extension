@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db47595f-fd29-4938-90d7-dd03688904ed">
+  <producedTypes>
+    <managerType typeId="e5ae0a2a-1233-4250-ae1b-b042bbb11db0" valueTypeId="5ad0fcea-0c41-401a-a5d7-e4b8c811c0d5"/>
+    <valueManagerType typeId="cc73a465-76c7-4581-a22c-0ffe03e2a373" valueTypeId="b6386a80-48d9-45b3-ae56-a1ce0cc1178e"/>
+    <valueKeyType typeId="69a7854c-652d-4530-8033-93e7bff815f0" valueTypeId="46568a5b-cc56-43b2-a0fb-4e4f667c932b"/>
+  </producedTypes>
+  <name>ИНТ_ВнешнийAPI_ТокенАвторизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИНТ внешний API токен авторизации</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

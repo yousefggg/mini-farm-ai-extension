@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e02274ee-6a17-4a9f-9a80-4772d95a433d">
+  <producedTypes>
+    <managerType typeId="d6f0f448-56de-4a31-896f-435cc172ea78" valueTypeId="a26d5975-73b8-4a45-8be6-fd15ccefa9fd"/>
+    <valueManagerType typeId="6594aab3-6255-4bdc-a570-b4374c2eba55" valueTypeId="144e9a22-5e7d-4785-831d-baf39b3b121a"/>
+    <valueKeyType typeId="407c134f-788d-418b-9eb8-de9beef227d6" valueTypeId="acb1c6a5-75cc-4d9e-9f02-8177d024c4da"/>
+  </producedTypes>
+  <name>ИИ_GigaChat_TokenExpiresAt</name>
+  <synonym>
+    <key>ru</key>
+    <value>Giga chat token expires at</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

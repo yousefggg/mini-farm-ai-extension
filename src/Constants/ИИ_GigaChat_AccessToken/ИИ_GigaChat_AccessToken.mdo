@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f67739d-0942-4f0b-9d73-7f9d0932165b">
+  <producedTypes>
+    <managerType typeId="caf1def2-d158-40f1-9b6c-14331a067104" valueTypeId="e3fa8146-2654-4d30-99b7-8d1b368e6be0"/>
+    <valueManagerType typeId="3266b33b-94d3-4b3d-8ec6-2c64077d42b2" valueTypeId="e34e8f9a-aa61-460a-aa91-531e50c0d7bf"/>
+    <valueKeyType typeId="f6726a23-27a9-4175-b127-d45c957e66b7" valueTypeId="b6450c02-8d61-40ee-8eeb-1e908a26787d"/>
+  </producedTypes>
+  <name>ИИ_GigaChat_AccessToken</name>
+  <synonym>
+    <key>ru</key>
+    <value>Giga chat access token</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

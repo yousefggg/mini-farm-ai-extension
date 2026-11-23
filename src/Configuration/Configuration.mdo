@@ -43,4 +43,10 @@
     <languageCode>ru</languageCode>
   </languages>
   <roles>Role.ИИ_ОсновнаяРоль</roles>
+  <constants>Constant.ИИ_GigaChat_AccessToken</constants>
+  <constants>Constant.ИИ_GigaChat_AuthorizationKey</constants>
+  <constants>Constant.ИИ_GigaChat_Scope</constants>
+  <constants>Constant.ИИ_GigaChat_TokenExpiresAt</constants>
+  <constants>Constant.ИНТ_ВнешнийAPI_АдресСервера</constants>
+  <constants>Constant.ИНТ_ВнешнийAPI_ТокенАвторизации</constants>
 </mdclass:Configuration>

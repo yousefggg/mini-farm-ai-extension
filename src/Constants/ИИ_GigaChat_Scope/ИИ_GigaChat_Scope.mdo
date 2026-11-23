@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fdeb979-8a31-463e-846c-64f6e99cbe5e">
+  <producedTypes>
+    <managerType typeId="2ba9570a-09dc-4512-b0b0-36d5f96c6089" valueTypeId="aad0e3bb-a4fd-4472-95bb-00d7d745e45b"/>
+    <valueManagerType typeId="9559a534-368b-41b9-98c8-895d06ff979f" valueTypeId="7636f87d-8952-4d84-8794-4688ade447db"/>
+    <valueKeyType typeId="959359cc-f1d1-4669-b0a7-fb8aee9238aa" valueTypeId="e6e2f6da-d6cb-492f-8cac-637944a72464"/>
+  </producedTypes>
+  <name>ИИ_GigaChat_Scope</name>
+  <synonym>
+    <key>ru</key>
+    <value>Giga chat scope</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
