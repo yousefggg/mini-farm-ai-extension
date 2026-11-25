@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c7125c05-149c-452a-ba88-413ff8a0d823" extendedConfigurationObject="fa0b93ee-db5b-4a2c-975f-db8a7747f4ec">
+  <producedTypes>
+    <objectType typeId="cd963bcf-2b6e-4c7a-94cd-cd316b275cde" valueTypeId="32c812a4-333b-4a66-95e1-4bed0e379007"/>
+    <refType typeId="3d94b7fb-7262-4737-9593-8f1175897834" valueTypeId="0ae2539b-bde9-4fd7-adcf-4a11e50d41a2"/>
+    <selectionType typeId="5d3fe524-63ca-4480-99ab-434f223bc9f8" valueTypeId="0630a847-fb8d-4ad0-bf50-601529f69487"/>
+    <listType typeId="d694c8d2-1497-406c-bcf5-acde428bb4e1" valueTypeId="a2b0e4a9-91db-449f-b894-021d9ccada16"/>
+    <managerType typeId="66d6e426-9de5-4b4e-983a-327c9524a22c" valueTypeId="66611dd2-751c-4d49-9333-f4ac498b9db2"/>
+  </producedTypes>
+  <name>ВидыЖивотных</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <checkUnique>true</checkUnique>
+</mdclass:Catalog>

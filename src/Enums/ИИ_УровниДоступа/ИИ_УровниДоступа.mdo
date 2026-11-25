@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16e5acd0-eae3-475d-a5f1-1dcf0583f92b">
+  <producedTypes>
+    <refType typeId="b3634de6-779b-4435-833d-9653a96fa76e" valueTypeId="a3efe060-2111-4358-b228-c49bda20df9b"/>
+    <listType typeId="efb9157c-e850-4847-a1dc-255bdb7f1bc7" valueTypeId="19657519-aa03-4965-9bd3-5d7fdef248c3"/>
+    <managerType typeId="2b1ba68c-596d-4934-ad2c-28e3fb3e7127" valueTypeId="03ae3fba-90d5-4cdb-b5cf-9085143a101d"/>
+  </producedTypes>
+  <name>ИИ_УровниДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни доступа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="247b3229-1e45-4a51-ad2c-3c924a7f1bab">
+    <name>ТолькоЧтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только чтение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df629a1b-6346-43ff-94ac-ca556b02b704">
+    <name>Администратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="497c1ef4-63da-43b1-a67a-234bd9088fbd">
+  <name>ИИ_Интеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграции</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonForm.ИИ_НастройкиИнтеграций</content>
+  <content>DataProcessor.ИИ_ТестАссистента</content>
+</mdclass:Subsystem>

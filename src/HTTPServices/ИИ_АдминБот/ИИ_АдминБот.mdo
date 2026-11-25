@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3838f511-cb9c-4c14-9082-27b43444b9e1">
+  <name>ИИ_АдминБот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Админ бот</value>
+  </synonym>
+  <rootURL>ai_admin</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="4bdb1569-3d06-44fd-81f5-192c0e4598dd">
+    <name>auth</name>
+    <synonym>
+      <key>ru</key>
+      <value>Auth</value>
+    </synonym>
+    <template>/auth</template>
+    <methods uuid="07cd7018-92ad-405f-86f2-72274a38e5e2">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>authPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="c7d0d6f7-f742-4655-9937-9cb139a7963d">
+    <name>command</name>
+    <synonym>
+      <key>ru</key>
+      <value>Command</value>
+    </synonym>
+    <template>/command</template>
+    <methods uuid="8f3c51d4-0da2-4c42-9772-5f34c0ac0c85">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>commandPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

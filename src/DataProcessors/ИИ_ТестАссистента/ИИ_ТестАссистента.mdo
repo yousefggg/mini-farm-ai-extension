@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba3b2206-c1b3-4ec9-960c-36c179e4292c">
+  <producedTypes>
+    <objectType typeId="dbd91d0d-5180-4ab9-9be6-0731cbf9f79b" valueTypeId="9da32e65-e8b4-491e-a9b8-2248bdbe8f61"/>
+    <managerType typeId="753af81a-3c5b-496c-8586-547aa55c9613" valueTypeId="13883223-4a3a-42bb-9575-b20924edf720"/>
+  </producedTypes>
+  <name>ИИ_ТестАссистента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест ассистента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИИ_ТестАссистента.Form.Форма</defaultForm>
+  <forms uuid="69637d95-dd77-4a05-ba9b-b06a7677588b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

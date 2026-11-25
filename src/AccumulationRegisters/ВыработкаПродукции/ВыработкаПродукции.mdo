@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a0aa3c56-65c2-419a-8ccf-d47b67c2ac23" extendedConfigurationObject="82d63f93-65ab-4389-a297-81c00b85d5c4">
+  <producedTypes>
+    <selectionType typeId="4aee93fa-d18e-4cd2-be2f-f444ed7745a4" valueTypeId="8e7a8817-7833-4cdc-943a-3a912061d318"/>
+    <listType typeId="71225da0-e795-42cc-92b6-eeaadf355e9c" valueTypeId="06d64422-57dd-4045-9aec-502c1cce6012"/>
+    <managerType typeId="ee53c398-65ec-43c6-ae54-4dfe0e71c355" valueTypeId="2fd03ee2-f31e-470a-819c-3d3bd403a92b"/>
+    <recordSetType typeId="b21e4e82-4088-4bba-8c36-b55327ea99e8" valueTypeId="bade25fc-aefc-44f4-b2cb-f2c2fdfb434b"/>
+    <recordKeyType typeId="1d2d9b51-4434-40d0-bbe6-943987261ca6" valueTypeId="b92fbed3-68a6-4b11-ba43-ddc2ad7a6f67"/>
+    <recordType typeId="482f925a-9ce0-47cb-9e34-b463d2dbd1f4" valueTypeId="73d6acbe-a53a-4baa-86ff-751446253769"/>
+  </producedTypes>
+  <name>ВыработкаПродукции</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ea26049-a6c3-4596-8297-d9b1b8dd1f2e">
+  <producedTypes>
+    <selectionType typeId="08682636-e5fb-4760-af08-7dc162ae6d30" valueTypeId="6db34438-e523-48fa-a17f-be0c2458868f"/>
+    <listType typeId="ab5a8abd-9293-4097-8fc5-9c3e141a8ac1" valueTypeId="88007151-8872-4fb7-bb00-88c006ccaafd"/>
+    <managerType typeId="7dead8f9-aebf-4c70-9cc8-cc728378ad85" valueTypeId="d91e4a0a-2b52-4d1d-9dc5-b9932c60b7d1"/>
+    <recordSetType typeId="cc7a8576-9abb-4b1b-a9b0-11b39916e900" valueTypeId="dc0c9d1c-9a8b-4aa8-a3b0-b0ccdbbad630"/>
+    <recordKeyType typeId="120d9762-abe5-4d17-8f05-4859504f2acd" valueTypeId="9b949ce5-34e5-4ecf-990f-abd8026e6bdf"/>
+    <recordType typeId="8df6ccc0-fa1c-4a19-a320-df2e90302d4e" valueTypeId="1b3374ea-f459-4f7e-9094-dc2773287fd6"/>
+    <recordManagerType typeId="d75dd3a8-981e-47a0-a798-5335c24d7782" valueTypeId="5eb15fc3-6f8e-4728-b573-c75785ff5c3c"/>
+  </producedTypes>
+  <name>ИИ_КлючиДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключи доступа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="21dbabbb-15c5-44d1-adec-0ae6884b082b">
+    <name>Активен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="100f9b3b-db49-4334-a51e-1b9bfb9986bd">
+    <name>УровеньДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень доступа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ИИ_УровниДоступа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b645dc5c-369b-44ca-8313-7016b8ab9f31">
+    <name>TelegramID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Telegram ID</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0d021947-937e-466b-a0cf-93da165c1f32">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="aead8552-88af-4386-8458-1a902022a1aa">
+    <name>КлючДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ доступа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

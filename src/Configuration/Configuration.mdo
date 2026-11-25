@@ -42,11 +42,27 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.ИИ_Интеграции</subsystems>
   <roles>Role.ИИ_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.ИИ_АналитикаФермыСервер</commonModules>
+  <commonModules>CommonModule.ИИ_ИнтеграцияСервер</commonModules>
+  <httpServices>HTTPService.ИИ_АдминБот</httpServices>
   <constants>Constant.ИИ_GigaChat_AccessToken</constants>
   <constants>Constant.ИИ_GigaChat_AuthorizationKey</constants>
   <constants>Constant.ИИ_GigaChat_Scope</constants>
   <constants>Constant.ИИ_GigaChat_TokenExpiresAt</constants>
   <constants>Constant.ИНТ_ВнешнийAPI_АдресСервера</constants>
   <constants>Constant.ИНТ_ВнешнийAPI_ТокенАвторизации</constants>
+  <commonForms>CommonForm.ИИ_НастройкиИнтеграций</commonForms>
+  <catalogs>Catalog.ВидыЖивотных</catalogs>
+  <catalogs>Catalog.Животные</catalogs>
+  <catalogs>Catalog.Корма</catalogs>
+  <catalogs>Catalog.Продукция</catalogs>
+  <enums>Enum.ИИ_УровниДоступа</enums>
+  <enums>Enum.ПолЖивотного</enums>
+  <dataProcessors>DataProcessor.ИИ_ТестАссистента</dataProcessors>
+  <informationRegisters>InformationRegister.ИИ_КлючиДоступа</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВыработкаПродукции</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Поголовье</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РасходКормов</accumulationRegisters>
 </mdclass:Configuration>

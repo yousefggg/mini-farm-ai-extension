@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="17e3ea2f-675c-414f-9562-4340348edfc4" extendedConfigurationObject="43d0adc7-e3b9-48e6-8c68-d18c238a5888">
+  <producedTypes>
+    <objectType typeId="74cf1d22-c83c-4cc7-8d7a-b03fd79e8fec" valueTypeId="a03244db-d3ed-44d2-92e9-5e913a6d993f"/>
+    <refType typeId="b28c51df-b9ed-4c08-b43d-e3853288108e" valueTypeId="c99758a7-08cc-4ae2-8251-055872c40c3e"/>
+    <selectionType typeId="e48d1600-d1b5-416e-b19a-4f7ea5281d73" valueTypeId="63eb433b-8701-45ad-ab39-5510616cb88b"/>
+    <listType typeId="c2145297-f6fb-4375-8c6f-e41dbd049756" valueTypeId="3efcb11a-aa4f-42ec-9c0f-5276cbc9b15c"/>
+    <managerType typeId="b2f36eeb-1cc2-40f8-96b1-eff686dfee92" valueTypeId="3fd91925-f4e8-492f-9b29-e07b108dfb05"/>
+  </producedTypes>
+  <name>Животные</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <checkUnique>true</checkUnique>
+</mdclass:Catalog>

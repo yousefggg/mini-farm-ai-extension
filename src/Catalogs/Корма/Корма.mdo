@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6f6a9856-6f94-40ba-b1bf-754bc6c2d991" extendedConfigurationObject="35622e36-0e1f-4487-a55c-1709cff05fbd">
+  <producedTypes>
+    <objectType typeId="571f7263-18d5-48f7-8363-dd3064481075" valueTypeId="807c8307-fc2e-43da-b61f-0053a3e7632f"/>
+    <refType typeId="dbcfb215-85ab-4a4e-b494-b29ed3e64ec2" valueTypeId="958eb9a3-4d9a-4f5d-b754-5bd3a6693d72"/>
+    <selectionType typeId="de4029e6-87e6-4459-a80e-24a17953ee27" valueTypeId="daa57347-5db4-40cb-acbf-f4a9190b5c0d"/>
+    <listType typeId="5c766554-dc2f-475a-be87-c23f667fb908" valueTypeId="80ce99af-e8a5-46c5-8ec3-84842a8535d4"/>
+    <managerType typeId="4dcd4f01-e3e4-49d4-a356-47c33a470121" valueTypeId="02c04ea5-f61c-4af0-919e-1f52684232e7"/>
+  </producedTypes>
+  <name>Корма</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <checkUnique>true</checkUnique>
+</mdclass:Catalog>
